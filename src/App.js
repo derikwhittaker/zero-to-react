@@ -16,10 +16,6 @@ import numeral from 'numeral';
 import logo from './logo.svg';
 import './App.css';
 
-import StocksPage from './components/stocks/page';
-import StockPurchasePage from './components/stocksPurchase/page';
-
-
 import stocksService from './services/stockService';
 
 class App extends Component {
