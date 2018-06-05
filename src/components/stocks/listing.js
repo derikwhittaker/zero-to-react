@@ -19,8 +19,8 @@ class StocksListing extends Component {
 
         this.state = {
             data: {
-                stocks: [],
-                totals: {}
+                stocks: props.stocks,
+                totals: props.totals
             }
         }
     }
@@ -64,7 +64,6 @@ class StocksListing extends Component {
                         })}
 
                     </TableBody>
-
                     <TableFooter>
                         <TableRow>
                             <TableCell></TableCell>
